@@ -19,7 +19,7 @@
 		"vscode": {
 			"extensions": [
 				"esbenp.prettier-vscode",
-				"ms-vscode.LiveServer",
+				"ritwickdey.liveserver",
 				"formulahendry.code-runner",
 				"ecmel.vscode-html-css",
 				"ms-vsliveshare.vsliveshare",
