@@ -4,4 +4,17 @@ let isCurrentlyHungry = true; // Boolean
 let middleName = null; // Null
 const eyeColor = "brown"; // Constant
 
-console.log(eyeColor);
+let person = {
+    firstName: myName,
+    age: age,
+    hungry: isCurrentlyHungry,
+    middleName: middleName,
+    eyeColor: eyeColor
+};
+
+let propName = "hungry";
+
+person.eyeColor = "black";
+person[propName] = false;
+
+console.log(person);
