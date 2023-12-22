@@ -31,10 +31,27 @@ let z = 1;
 
 // Equality
 // Strict Equality (type and value)
-console.log(z === 1);
-console.log(z !== 1);
-console.log(z === '1');
+// console.log(z === 1);
+// console.log(z !== 1);
+// console.log(z === '1');
 
 // Loose Equality Operator (value)
-console.log(z == '1');
-console.log(z != 1);
+// console.log(z == '1');
+// console.log(z != 1);
+
+// Logical Operator
+let highIncome = false;
+let goodCredit = false;
+// Logical And (&&)
+// Returns TRUE if both operands are true
+let approvedForLoan = highIncome && goodCredit;
+// console.log(approvedForLoan);
+
+// Logical Or (||)
+// Returns TRUE if at least one of the operands is true
+approvedForLoan = highIncome || goodCredit;
+console.log(approvedForLoan);
+
+// Logical Not (!)
+let rejected = !approvedForLoan;
+console.log(rejected);
