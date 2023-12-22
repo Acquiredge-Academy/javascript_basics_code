@@ -21,4 +21,20 @@ let y = 3;
 // x = x + 5;
 x += 5;
 
-console.log(x);
+// Comparison
+let z = 1;
+
+// console.log(z > 0);
+// console.log(z >= 1);
+// console.log(z < 0);
+// console.log(z <= 1);
+
+// Equality
+// Strict Equality (type and value)
+console.log(z === 1);
+console.log(z !== 1);
+console.log(z === '1');
+
+// Loose Equality Operator (value)
+console.log(z == '1');
+console.log(z != 1);
