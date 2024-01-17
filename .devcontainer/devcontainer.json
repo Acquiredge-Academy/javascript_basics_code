@@ -36,6 +36,7 @@
 				"[css]": {
 					"editor.defaultFOrmatter": "esbenp.prettier-vscode"
 				},
+				"editor.cursorBlinking": "solid",
 				"editor.fontSize": 22,
 				"editor.minimap.enabled": false,
 				"editor.parameterHints.enabled": false,
